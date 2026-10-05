@@ -1,4 +1,4 @@
-%%writefile README.md
+
 # AI Skills Bootcamp — Tsegai Yhdego
 
 Building in-demand AI engineering skills through daily practical projects.
