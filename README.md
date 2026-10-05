@@ -1,25 +1,53 @@
 %%writefile README.md
-# AI Skills Bootcamp
+# AI Skills Bootcamp — Tsegai Yhdego
 
-## Day 1 — Streamlit Sentiment Analyzer
+Building in-demand AI engineering skills through daily practical projects.
 
-A web app that analyzes text sentiment using HuggingFace Transformers and Streamlit.
+---
 
-### What it does
-- Takes text input from the user
-- Runs HuggingFace distilbert sentiment analysis model
-- Displays prediction label — POSITIVE or NEGATIVE
-- Shows confidence score and bar chart visualization
+## Day 1 — Project 1: Sentiment Analyzer
 
-### Tech stack
-- Streamlit
-- HuggingFace Transformers
-- PyTorch
-- Matplotlib
+A web app that analyzes text sentiment using HuggingFace Transformers.
 
-### How to run locally
+**Stack:** Streamlit, HuggingFace Transformers, PyTorch, Matplotlib
+
+**Run:**
 pip install streamlit transformers torch
 streamlit run app.py
 
-### Author
-Tsegai Yhdego — PhD Industrial Engineering, AI/ML Researcher
+---
+
+## Day 1 — Project 2: AI Research Explorer
+
+Interactive multi-input app for exploring ML techniques across research domains with AI powered analysis.
+
+**Features:**
+- Domain and technique selection with real time charts
+- Interactive bar chart and radar chart using Plotly
+- Technique comparison table with scoring
+- AI powered research analysis using Groq LLaMA
+- Download analysis as text file
+
+**Stack:** Streamlit, Plotly, Groq API, Pandas
+
+**Run:**
+pip install streamlit plotly groq pandas
+streamlit run app2.py
+
+---
+
+## Skills Demonstrated
+- Streamlit web app development
+- HuggingFace Transformers inference
+- Plotly interactive data visualization
+- LLM API integration (Groq)
+- Multi-input interactive UI design
+- Real time data driven charts
+
+---
+
+## Author
+Tsegai Yhdego
+PhD Industrial Engineering — FAMU-FSU
+AI/ML Researcher — R-SEAT Center
+USDOT Funded Research — Intelligent Transportation and Autonomous Systems
